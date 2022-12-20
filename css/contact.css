@@ -1,0 +1,232 @@
+/* HEADER */
+.header {
+    padding-top: 7.3rem;
+    /* height: 51.7rem; */
+    /* padding: 7.3rem 0; */
+    position: absolute;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.logo-link {
+    margin-right: 8rem;
+}
+
+.site-nav {
+    margin-right: 57rem;
+}
+.site-nav__list {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.site-nav__link {
+    color: inherit;
+}
+
+.header__btn {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+
+}
+.header__btn:active{
+    mix-blend-mode: normal;
+opacity: 0.25;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* MAIN */
+.main {
+    flex-grow: 1;
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.contact {
+    /* display: flex; */
+    /* align-items: center; */
+    background-image: url("../images/contact-bg-left.svg"),
+    url("../images/contact-bg-right.svg");
+    background-repeat: no-repeat;
+    background-position: left top , right bottom;
+}
+.contact__container {
+    /* width: 1112px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 124px;
+    margin-bottom: 142px;
+    
+}
+
+.contact__info {
+    
+}
+.contact__title {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 100px;
+/* identical to box height, or 156% */
+color: #FFFFFF;
+margin-bottom: 16px;
+
+}
+.contact__list {
+}
+.contact__list_title {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+
+
+color: #F67E7E;
+margin-bottom: 54px;
+}
+.contact__item {
+    margin-bottom: 8px;
+}
+.contact__item_link {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.contact__item_img {
+}
+.contact__item_text {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+
+color: #FFFFFF;
+}
+
+form{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.input{
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    background-color: transparent;
+    height: 42px;
+}
+
+.massaege{
+    height: 100px;
+
+}
+
+button {
+    width: 123px;
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+background-color: #FFFFFF;
+
+color: #004047;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 48px 48px;
+    background: rgba(0, 37, 41, 1);
+}
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__info{
+display: flex;
+align-items: center;
+}
+
+.footer-nav{
+    margin-right: 125px;
+}
+
+
+.footer-nav__list {
+    display: flex;
+    align-items: center;
+    gap: 4rem;  
+}
+
+.footer-nav__link {
+    color: inherit;
+}
+
+.footer-description {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+.footer__reserved {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 5.1rem;
+text-align: end;
+
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.footer__list-text {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+text-align: right;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}

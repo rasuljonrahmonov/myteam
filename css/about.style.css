@@ -1,0 +1,375 @@
+/* HEADER */
+.header {
+    padding-top: 7.3rem;
+    /* height: 51.7rem; */
+    /* padding: 7.3rem 0; */
+    position: absolute;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.logo-link {
+    margin-right: 8rem;
+}
+
+.site-nav {
+    margin-right: 57rem;
+}
+.site-nav__list {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.site-nav__link {
+    color: inherit;
+}
+
+.header__btn {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+
+}
+.header__btn:active{
+    mix-blend-mode: normal;
+opacity: 0.25;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* MAIN */
+.main {
+    flex-grow: 1;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    background: url('../images/about-hero-img.svg');
+    background-repeat: no-repeat;
+  background-position:  right  bottom ;
+}
+.hero__container {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+  align-items: center;
+  padding: 0;
+ 
+}
+
+.hero__title--wrapper{
+    width: 635px;
+}
+.hero__title {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 100px;
+/* identical to box height, or 156% */
+color: #FFFFFF;
+margin-right: 200px;
+}
+
+.hero__text--wrapper {
+    margin-right: 30px;
+}
+.hero__divider {
+    margin-bottom: 7.9rem;
+    width: 50px;
+  height: 4px;
+  background-color: rgba(246, 126, 126, 1);
+  border: 0;
+}
+.hero__description {
+    line-height: 1.56;
+}
+
+.section {
+   
+}
+.meet {
+    width: 100vw;
+    height: 1002px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    background-image: url("../images/meet-img1.svg"),
+    url("../images/deliver__img2.svg");
+    background-repeat: no-repeat;
+    
+}
+.meet__container {
+    width: 1160px;
+    height: 722px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:140px 1
+
+}
+
+.meet__title {
+    margin-bottom: 64px;
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.meet__list {
+    max-width: 1160px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 20px;
+}
+.meet__item {
+    width: 350px;
+    height: 280px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.avatar {
+    width: 35rem;
+    height: 25.3rem;
+    background-color: rgba(1, 47, 52, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 32px;
+    
+}
+.avatar__link {
+}
+.avatar__img {
+    margin-bottom: 16px;
+}
+.avatar__item-title {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+text-align: center;
+
+color: #79C8C7;
+}
+.avatar__item-text {
+    font-family: 'Livvic';
+font-style: italic;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 28px;
+}
+.avatart__img {
+}
+.allan-about {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+.allan-text{
+    margin-bottom: 24px;
+}
+
+.clients {
+    /* width: 1440px; */
+    background-image: url("../images/clients-circle\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: flex;
+    align-items: center;
+}
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 151px;
+}
+
+.clients__title {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.clients__list {
+display: flex;
+align-items: center; 
+gap: 80px;   
+
+}
+.clients__item {
+    
+}
+.clients__link {
+}
+.clients__img {
+
+}
+
+.meet__item-plus{
+    
+}
+
+.ready {
+    display: flex;
+    align-items: center;
+    background-color: rgba(246, 126, 126, 1);
+    background-image: url("../images/ready-img.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+.ready__container {
+    display: flex;
+    align-items: center;
+    padding: 76px  76px ;
+}
+
+.ready__info{
+    /* width: 917px;
+    height: 48px; */
+    
+    display: flex;
+    align-items: center;
+}
+.ready__title {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+
+color: #012F34;
+ margin-right: 260px;
+}
+.ready__btn {
+    color: #012F34; 
+    border: 3px solid #012F34;;
+}
+.ready__btn:hover{
+    color: #FFFFFF;
+    background: #012F34;
+}
+.ready__btn:active{
+    border:2px solid #333;
+    color: #333;
+    background-color:#FFFFFF;
+    mix-blend-mode: normal;
+opacity: 0.25;
+}
+
+
+
+/* FOOTER */
+.footer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 48px 48px;
+    background: rgba(0, 37, 41, 1);
+}
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__info{
+display: flex;
+align-items: center;
+}
+
+.footer-nav{
+    margin-right: 125px;
+}
+
+
+.footer-nav__list {
+    display: flex;
+    align-items: center;
+    gap: 4rem;  
+}
+
+.footer-nav__link {
+    color: inherit;
+}
+
+.footer-description {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+.footer__reserved {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 5.1rem;
+text-align: end;
+
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.footer__list-text {
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+text-align: right;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* livvic-500 - latin */
+  @font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v13-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* livvic-600 - latin */
+  @font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v13-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* livvic-700 - latin */
+  @font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  ul,
+ol {
+  list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+img {
+    display: flex;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-family: "livvic", Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 1.67;
+    color: #fff;
+    background-color: #014e56;
+    position: relative;
+  }
+.container{
+    width: 100%;
+    max-width: 1160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary {
+    color: #f67e7e;
+  }
+.btn{
+    border-radius: 24px;
+    border: 2px solid transparent;
+    padding: 9px 32px 11px;
+    line-height: initial;
+}
+
+.btn-light {
+    color: #fff;
+    border-color: #fff;
+}
+.btn-light:hover {
+    background-color: #fff;
+    color: #333;
+}
+
